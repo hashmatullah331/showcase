@@ -44,4 +44,3 @@ def blog_detail(request, pk):
         "form": form,
     }
     return render(request, "blog/blog_detail.html", context)
-prnt('hello world')
